@@ -1,9 +1,26 @@
-- 👋 Hi, I’m @baokhanh1701
-- 👀 I’m interested in Software Engineering and fucking around with features until I find a bug.
-- 🌱 I’m currently learning Computer Science at Ho Chi Minh University of Technology, worst university on the planet?
-- 💞️ I’m looking to collaborate on crying over overdue deadlines and rejected PRs.
 
-<!---
-baokhanh1701/baokhanh1701 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# 👋 Hi, I’m @baokhanh1701
+
+> “It compiles. Ship it.”
+
+## 🧠 About Me
+- 🎓 CS graduate from Ho Chi Minh University of Technology
+- ☁️ Currently clouding around as a Cloud Engineer @ NEC Vietnam
+- 🐛 I break things until they work. Or until I find a bug. Whichever comes first.  
+- 🧪 Passionate about pushing buttons I shouldn’t and enabling features that were never meant to be enabled.  
+- 🧘‍♂️ Deadlines? Oh, you mean those `gentle suggestions` from the void? 
+
+## 💀 Current Situation
+
+```bash
+while true; do
+  timestamp=$(date +"%T")
+  mood=$(shuf -n1 -e "😵‍💫" "🔥" "💀" "🤡" "🧠" "☕" "🪦")
+  log_level=$(shuf -n1 -e "INFO" "WARN" "ERROR" "CRITICAL" "DEBUG")
+  message=$(shuf -n1 -e \
+    "Rebooting my will to live..." \
+    "StackOverflow is down. Panic.")
+  echo "[$timestamp] [$log_level] $mood $message"
+  sleep $((RANDOM % 3 + 1))
+done
+```
